@@ -9,6 +9,7 @@ body {
     font-family: 'Lato';
     font-size: 18px;
     background-image: url(../images/map-bg.jpg);
+    background-size: cover;
 
 }
 
@@ -45,23 +46,8 @@ h2 {margin: 0;}
         - Show each of the section headings of the menu  in small caps
         - set the font color to #6d4c41
 */
-#starters h2 {
-    font: small-caps;
-    color: #6d4c41;
-}
-
-#soupssalads h2 {
-    font: small-caps;
-    color: #6d4c41;
-}
-
-#entrees h2 {
-    font: small-caps;
-    color: #6d4c41;
-}
-
-#desserts h2 {
-    font: small-caps;
+h2 {
+    font-variant: small-caps;
     color: #6d4c41;
 }
 
